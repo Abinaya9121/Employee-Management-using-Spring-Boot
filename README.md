@@ -1,9 +1,9 @@
 # Employee-Management-using-Spring-Boot
 Created a spring boot application for storing all the employee details and added some features like adding, editing and deleting the employee records.
-<br>Displaying the records 
-<br>![image](https://user-images.githubusercontent.com/64024900/143399441-670cf3cf-65e5-45f8-9b85-b7a4dacd9f6e.png)
+<br><br>Displaying the records 
+<br><br>![image](https://user-images.githubusercontent.com/64024900/143399441-670cf3cf-65e5-45f8-9b85-b7a4dacd9f6e.png)
 <br><br>Creating a new employee record by clicking the button Add Employee
-<br>![image](https://user-images.githubusercontent.com/64024900/143399509-17462c8b-f5d2-4199-ab39-f43f6c4a855d.png)
+<br><br>![image](https://user-images.githubusercontent.com/64024900/143399509-17462c8b-f5d2-4199-ab39-f43f6c4a855d.png)
 <br><br>Contents after entering new employee details
 <br>![image](https://user-images.githubusercontent.com/64024900/143399551-f6784ec4-e663-4d14-a052-1060982d09f7.png)
 <br><br>Deleting am employee record using the delete button
