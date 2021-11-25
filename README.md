@@ -1,15 +1,14 @@
 # Employee-Management-using-Spring-Boot
 Created a spring boot application for storing all the employee details and added some features like adding, editing and deleting the employee records.
-Displaying the records 
-![image](https://user-images.githubusercontent.com/64024900/143398639-431b269a-30c7-4788-8dcd-ab5413f7cbeb.png)
-Creating a new employee record by clicking the button Add Employee
-![image](https://user-images.githubusercontent.com/64024900/143398675-d9b22daf-4c86-43f1-829b-94bd19d678a3.png)
-Contents after entering new employee details
-![image](https://user-images.githubusercontent.com/64024900/143398720-c294b748-6856-4003-9087-f74d78bf3554.png)
-Deleting am employee record using the delete button
-![image](https://user-images.githubusercontent.com/64024900/143398785-1b98425f-88ea-4b43-b794-c5018541ce22.png)
-User can update the existing employee deatils using Edit button
-![image](https://user-images.githubusercontent.com/64024900/143398806-3a051d7b-b632-429f-854a-2911842d4692.png)
-Contents after editing the deatils of the employee
-![image](https://user-images.githubusercontent.com/64024900/143398821-1591df4a-dace-45be-acaf-e0cc80a14b0c.png)
-
+<br>Displaying the records 
+<br>![image](https://user-images.githubusercontent.com/64024900/143399441-670cf3cf-65e5-45f8-9b85-b7a4dacd9f6e.png)
+<br><br>Creating a new employee record by clicking the button Add Employee
+<br>![image](https://user-images.githubusercontent.com/64024900/143399509-17462c8b-f5d2-4199-ab39-f43f6c4a855d.png)
+<br><br>Contents after entering new employee details
+<br>![image](https://user-images.githubusercontent.com/64024900/143399551-f6784ec4-e663-4d14-a052-1060982d09f7.png)
+<br><br>Deleting am employee record using the delete button
+<br>![image](https://user-images.githubusercontent.com/64024900/143399603-d25dcc97-685b-4764-be6e-5296d82300dd.png)
+<br><br>User can update the existing employee deatils using Edit button
+<br>![image](https://user-images.githubusercontent.com/64024900/143399669-38921579-f490-4d2c-be71-fa4dd2e6110e.png)
+<br><br>Contents after editing the deatils of the employee
+<br>![image](https://user-images.githubusercontent.com/64024900/143399739-1c2b2866-7889-4ac9-887e-54602f01e19e.png)
