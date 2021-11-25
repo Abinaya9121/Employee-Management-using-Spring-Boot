@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+ 
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css" />
+	<script src= "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
+	 <body style="background-color:#DCDCDC;">
+</head>
+<body>
+<div>
+	<h2 align="center" style="font-weight: bold;">EMPLOYEE MANAGEMENT SYSTEM</h2>
+	<table class="table" align="center">
+  			<thead class="thead-dark" align="center">
+    			<tr>
+	      				<th align="center">Employee ID</th>
+	            		<th align="center">Employee Name</th>
+	            		<th align="center">Mobile</th>
+	            		<th align="center">Salary</th>
+	            		<th align="center">Age</th>
+	            		<th align="center">Address</th>
+	            		<th align="center">Email</th>
+	            		<th align="center">Department</th>
+			            <th align="center">Edit</th>
+			            <th align="center">Delete</th>
+   				</tr>
+   				<tr>
+					<div align = "center" >
+					<h4>Click on the below link to insert an employee record --> </h4>
+		   				<h4><a  th:href="@{'/new'}">Add Employee</a></h4>
+						<br> 
+		   			</div>
+				</tr>
+			 </thead>
+  <tbody>
+      <tr  th:each="employee : ${listemployee}">
+		<td align="center" th:text="${employee.id}">Employee ID</td>
+		<td align="center" th:text="${employee.ename}">Employee Name</td>
+		<td align="center" th:text="${employee.mobile}">Mobile</td>
+		<td align="center" th:text="${employee.salary}">Salary</td>	
+		<td align="center" th:text="${employee.age}">Age</td>
+		<td align="center" th:text="${employee.address}">Address</td>
+		<td align="center" th:text="${employee.email}">Email</td>
+		<td align="center" th:text="${employee.department}">Department</td>			
+		<td>
+			<a align="center" th:href="@{'/edit/' + ${employee.id}}">Edit</a>
+		</td>							    
+		<td>
+			<a align="center" th:href="@{'/delete/' + ${employee.id}}">Delete</a>
+		</td>		    
+		</tr> 
+   
+  </tbody>
+
+	</table>
+	<div>
+</body>
+</html>
